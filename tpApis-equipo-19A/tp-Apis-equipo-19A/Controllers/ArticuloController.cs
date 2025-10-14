@@ -7,6 +7,7 @@ using System.Web.Http;
 using Dominio;
 using Microsoft.Ajax.Utilities;
 using Negocio;
+using tp_Apis_equipo_19A.Dto_s;
 
 namespace tp_Apis_equipo_19A.Controllers
 {
@@ -31,8 +32,21 @@ namespace tp_Apis_equipo_19A.Controllers
         }
 
         // POST: api/Articulo
-        public void Post([FromBody]string value)
+        public void Post([FromBody]ArticuloDto articulo)
         {
+            articuloNegocio negocio = new articuloNegocio();
+            Articulo nuevo = new Articulo();
+
+            nuevo.Codigo = articulo.Codigo;
+            nuevo.Nombre = articulo.Nombre;
+            nuevo.Descripcion = articulo.Descripcion;
+            nuevo.marca = new Marca { IdMarca = articulo.IdMarca };
+            nuevo.Categoria = new Categoria { IdCategoria = articulo.IdCategoria };
+            nuevo.Imagenes = new Imagenes { ImagenUrl = articulo.UrlImagen };
+            nuevo.Precio = articulo.Precio;
+
+            negocio.AgregarArticulo(nuevo);
+
         }
 
         // PUT: api/Articulo/5
@@ -43,6 +57,8 @@ namespace tp_Apis_equipo_19A.Controllers
         // DELETE: api/Articulo/5
         public void Delete(int id)
         {
+            articuloNegocio negocio = new articuloNegocio();
+            negocio.eliminar(id);
         }
     }
 }
