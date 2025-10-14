@@ -1,12 +1,182 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jesil\\OneDrive\\Escritorio\\programacion\\Programacion 3\\Winforms \u002B BSD\\tpApis-equipo-19A\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|c:\\users\\jesil\\onedrive\\escritorio\\tp 5 apis\\tp-apis-equipo-19a\\tpapis-equipo-19a\\tp-apis-equipo-19a\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|solutionrelative:tp-apis-equipo-19a\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-apis-equipo-19a\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|solutionrelative:tp-apis-equipo-19a\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\dominio\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|solutionrelative:negocio\\marcanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categorianegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Web.config",
+              "RelativeDocumentMoniker": "tp-Apis-equipo-19A\\Web.config",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Web.config",
+              "RelativeToolTip": "tp-Apis-equipo-19A\\Web.config",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-14T03:09:36.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Imagenes.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Imagenes.cs",
+              "RelativeDocumentMoniker": "Dominio\\Imagenes.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Imagenes.cs",
+              "RelativeToolTip": "Dominio\\Imagenes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T03:02:39.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "Negocio\\AccesoDatos.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:59:41.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MarcaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\MarcaNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\MarcaNegocio.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\MarcaNegocio.cs",
+              "RelativeToolTip": "Negocio\\MarcaNegocio.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwHEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:59:17.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriaNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\CategoriaNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\CategoriaNegocio.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\CategoriaNegocio.cs",
+              "RelativeToolTip": "Negocio\\CategoriaNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:58:31.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "Dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Categoria.cs",
+              "RelativeToolTip": "Dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:57:27.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "Dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Marca.cs",
+              "RelativeToolTip": "Dominio\\Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:56:57.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:46:42.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "Dominio\\Articulo.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:45:42.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\jesil\\OneDrive\\Escritorio\\Tp 5 Apis\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T02:39:49.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

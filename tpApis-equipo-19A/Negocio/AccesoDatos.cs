@@ -14,8 +14,6 @@ namespace Negocio
         private SqlCommand comando;
         private SqlDataReader lector;
 
-
-
         public SqlDataReader Lector
         {
             get { return lector; }
@@ -24,29 +22,26 @@ namespace Negocio
         public AccesoDatos()
         {
 
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=PROMOS_DB ; integrated security=true");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB ; integrated security=true");
             comando = new SqlCommand();
 
         }
 
-        public void SetearConsulta(string consulta)
+        public void setearConsulta(string consulta)
         {
-
             comando.CommandType = System.Data.CommandType.Text;
             comando.CommandText = consulta;
 
-
         }
 
-        public void EjecutarLectura()
+        public void ejecutarLectura()
         {
             comando.Connection = conexion;
+
             try
             {
-
                 conexion.Open();
                 lector = comando.ExecuteReader();
-
             }
             catch (Exception ex)
             {
@@ -54,27 +49,18 @@ namespace Negocio
                 throw ex;
             }
 
+
         }
 
-        public void cerrarConexion()
+        public object ejecutarScalar()
         {
-            if (lector != null)
-            {
-                lector.Close();
-                conexion.Close();
-            }
-        }
-
-        public void EjecutarAccion()
-        {
-            comando.Connection = conexion;
-
             try
             {
+                comando.Connection = conexion;
+                if (conexion.State != System.Data.ConnectionState.Open)
+                    conexion.Open();
 
-                conexion.Open();
-                comando.ExecuteNonQuery();
-
+                return comando.ExecuteScalar();
             }
             catch (Exception ex)
             {
@@ -84,13 +70,52 @@ namespace Negocio
             {
                 conexion.Close();
             }
-
         }
 
-        public void SetearParametro(string nombre, object Valor)
+
+        public void ejecutarAccion()
         {
-            comando.Parameters.AddWithValue(nombre, Valor);
+
+
+            comando.Connection = conexion;
+
+            try
+            {
+                conexion.Open();
+                comando.ExecuteNonQuery();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
+
+        public void setearParametro(string nombre, object valor)
+        {
+
+            comando.Parameters.AddWithValue(nombre, valor);
+
+
+
+        }
+
+
+
+
+
+
+        public void cerrarConexion()
+        {
+            if (lector != null)
+                lector.Close();
+            conexion.Close();
+
+        }
+
+
 
     }
 }

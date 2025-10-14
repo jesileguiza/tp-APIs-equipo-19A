@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Dominio
@@ -14,7 +15,14 @@ namespace Dominio
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
 
-        public List<string> Imagenes { get; set; } = new List<string>();
+        public Marca marca { get; set; }
+        public Categoria Categoria { get; set; }
+        public Imagenes Imagenes { get; set; } = new Imagenes();
+        public decimal Precio { get; set; }
+
+
+
+
 
     }
 }
