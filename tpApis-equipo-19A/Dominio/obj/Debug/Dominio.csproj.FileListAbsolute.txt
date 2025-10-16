@@ -4,3 +4,9 @@ C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19
 C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.dll
 C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\bin\Debug\Dominio.dll
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.dll
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Dominio\obj\Debug\Dominio.pdb

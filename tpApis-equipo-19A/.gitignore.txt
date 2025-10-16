@@ -1,0 +1,67 @@
+# Archivos de Visual Studio
+.vs/
+.vscode/
+
+# Archivos de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Archivos de test
+TestResults/
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.cache
+*.pdb
+
+# Paquetes NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.tlog
+
+# Archivos de publicación
+*.publish.xml
+*.publishsettings
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de configuración de Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Archivos de Docker y contenedores (si aplica)
+*.container.cache
+
+# Archivos generados por herramientas
+*.dbmdl
+*.bak
+*.orig
+
+# Secretos o configuraciones locales
+appsettings.Development.json
+secrets.json
+
+# Ignorar archivos específicos de Git
+*.vsidx
+*.db

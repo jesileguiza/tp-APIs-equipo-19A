@@ -7,3 +7,12 @@ C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19
 C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.dll
 C:\Users\jesil\OneDrive\Escritorio\Tp 5 Apis\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\bin\Debug\Negocio.dll
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\bin\Debug\Dominio.dll
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\bin\Debug\Dominio.pdb
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.dll
+C:\Users\Lauty\Documents\GitHub\tp-APIs-equipo-19A\tp-APIs-equipo-19A\tpApis-equipo-19A\Negocio\obj\Debug\Negocio.pdb

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -32,7 +33,7 @@ namespace tp_Apis_equipo_19A.Controllers
         }
 
         // POST: api/Articulo
-        public void Post([FromBody]ArticuloDto articulo)
+        public HttpResponseMessage Post([FromBody]ArticuloDto articulo)
         {
             articuloNegocio negocio = new articuloNegocio();
             Articulo nuevo = new Articulo();
@@ -47,18 +48,72 @@ namespace tp_Apis_equipo_19A.Controllers
 
             negocio.AgregarArticulo(nuevo);
 
+            return Request.CreateResponse(HttpStatusCode.OK, "Código: 200 OK");
+
         }
 
-        // PUT: api/Articulo/5
-        public void Put(int id, [FromBody]string value)
+
+
+        // POST: api/Articulo
+        [HttpPost]
+        [Route("Api/Articulo/AgregarImagenes")]
+        public IHttpActionResult AgregarImagenes ([FromBody] ImagenesDto Dto)
         {
+            if (Dto == null || Dto.Urls == null || !Dto.Urls.Any()) return BadRequest("Debe proporcionar una lista de imagenes");
+
+            try
+            {
+                articuloNegocio negocio= new articuloNegocio(); 
+                negocio.AgregarImagenes(Dto.Urls, Dto.Id);
+                return Ok("Codigo: 200 OK");
+
+            }
+            catch (Exception ex) {   
+                return InternalServerError(ex);
+            }
+
+
+
+        }
+
+
+
+        // PUT: api/Articulo/5
+        [HttpPut]
+        public IHttpActionResult Put(int id, [FromBody] ArticuloDto articulo)
+        {
+            try
+            {
+
+                articuloNegocio negocio = new articuloNegocio();
+                Articulo nuevo = new Articulo();
+
+                nuevo.Codigo = articulo.Codigo;
+                nuevo.Nombre = articulo.Nombre;
+                nuevo.Descripcion = articulo.Descripcion;
+                nuevo.marca = new Marca { IdMarca = articulo.IdMarca };
+                nuevo.Categoria = new Categoria { IdCategoria = articulo.IdCategoria };
+                nuevo.Imagenes = new Imagenes { ImagenUrl = articulo.UrlImagen };
+                nuevo.Precio = articulo.Precio;
+                nuevo.IdArticulo = id;
+
+                negocio.modificarArticulo(nuevo);
+                return Ok("Codigo: 200 OK");
+
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+
         }
 
         // DELETE: api/Articulo/5
-        public void Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
             articuloNegocio negocio = new articuloNegocio();
             negocio.eliminar(id);
+            return Request.CreateResponse(HttpStatusCode.OK, "Código: 200 OK");
         }
     }
 }

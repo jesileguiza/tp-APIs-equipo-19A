@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\",
+  "WorkspaceRootPath": "C:\\Users\\Lauty\\Documents\\GitHub\\tp-APIs-equipo-19A\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|c:\\users\\estudiante\\desktop\\repositorios github\\progamacion-iii\\tp-apis-equipo-19a\\tpapis-equipo-19a\\tp-apis-equipo-19a\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|c:\\users\\lauty\\documents\\github\\tp-apis-equipo-19a\\tp-apis-equipo-19a\\tpapis-equipo-19a\\tp-apis-equipo-19a\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|solutionrelative:tp-apis-equipo-19a\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|c:\\users\\estudiante\\desktop\\repositorios github\\progamacion-iii\\tp-apis-equipo-19a\\tpapis-equipo-19a\\tp-apis-equipo-19a\\dto\u00B4s\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C836E7BB-63C1-4721-948F-F871D01D4B38}|tp-Apis-equipo-19A\\tp-Apis-equipo-19A.csproj|solutionrelative:tp-apis-equipo-19a\\dto\u00B4s\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|C:\\Users\\Lauty\\Documents\\GitHub\\tp-APIs-equipo-19A\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37AC8DA7-6CFA-47DE-B5CF-55144B07DEEF}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\dominio\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A8CB9DA-FD6E-4983-85D9-1D048E428DA3}|Dominio\\Dominio.csproj|solutionrelative:dominio\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ArticuloDto.cs",
-              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Dto\u00B4s\\ArticuloDto.cs",
-              "RelativeDocumentMoniker": "tp-Apis-equipo-19A\\Dto\u00B4s\\ArticuloDto.cs",
-              "ToolTip": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Dto\u00B4s\\ArticuloDto.cs",
-              "RelativeToolTip": "tp-Apis-equipo-19A\\Dto\u00B4s\\ArticuloDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAArwBEAAAAWAAAAAAAAAA==",
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\GitHub\\tp-APIs-equipo-19A\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\GitHub\\tp-APIs-equipo-19A\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwLEBAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T18:42:50.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T02:10:53.275Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ArticuloController.cs",
-              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Lauty\\Documents\\GitHub\\tp-APIs-equipo-19A\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
               "RelativeDocumentMoniker": "tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
-              "ToolTip": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\Lauty\\Documents\\GitHub\\tp-APIs-equipo-19A\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
               "RelativeToolTip": "tp-Apis-equipo-19A\\Controllers\\ArticuloController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwDwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T18:32:56.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\ArticuloNegocio.cs",
-              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAowAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T02:46:42.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Imagenes.cs",
-              "DocumentMoniker": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Imagenes.cs",
-              "RelativeDocumentMoniker": "Dominio\\Imagenes.cs",
-              "ToolTip": "C:\\Users\\estudiante\\Desktop\\Repositorios Github\\Progamacion-III\\tp-APIs-equipo-19A\\tpApis-equipo-19A\\Dominio\\Imagenes.cs",
-              "RelativeToolTip": "Dominio\\Imagenes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:02:39.434Z",
+              "WhenOpened": "2025-10-15T01:41:39.296Z",
               "EditorCaption": ""
             }
           ]

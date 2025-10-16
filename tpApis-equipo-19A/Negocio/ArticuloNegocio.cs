@@ -425,6 +425,33 @@ namespace Negocio
             }
         }
 
+        public void AgregarImagenes(List<string> urls, int idArticulo)
+        {
+                foreach (string url in urls)
+                {
+                if (string.IsNullOrWhiteSpace(url)) continue;
+
+                AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+
+                datos.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@IdArticulo, @ImagenUrl)");
+                datos.setearParametro("@IdArticulo", idArticulo);
+                    datos.setearParametro("@ImagenUrl", url ?? (object)DBNull.Value);
+                    datos.ejecutarAccion();
+                }
+            catch (Exception ex)
+            {
+                    throw new Exception($"Error al insertar imagen '{url}': {ex.Message}", ex);
+                }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+            }
+        }
+
 
 
     }
